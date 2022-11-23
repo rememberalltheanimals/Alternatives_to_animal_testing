@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="Top Level Node"  description="The top node of our xml document">
+    <siteMapNode url="Default.aspx" title="Home"  description="The home page of the site" />
+    <siteMapNode url="Universities.aspx" title="Universities"  description="Animal testing in education" />
+	<siteMapNode url="Research_Institues.aspx" title="Research Institues"  description="Animal testing funded by tax payers and consumers" />
+    <siteMapNode url="ReportAnimalTesting.aspx" title="Report Animal Testing"  description="Report unethical animal testing" />
+    <siteMapNode url="UserAccount.aspx" title="User Account"  description="Create an user account" />
+  </siteMapNode>
+</siteMap>
