@@ -44,7 +44,7 @@ namespace Alternatives_to_animal_testing2
             data = new System.Security.Cryptography.SHA256Managed().ComputeHash(data);
             String hashedPassword = System.Text.Encoding.ASCII.GetString(data);
 
-                account.Password = hashedPassword;
+            account.Password = hashedPassword;
 
             account.Phone = txtPhone.Text;
             account.Email = txtEmail.Text;

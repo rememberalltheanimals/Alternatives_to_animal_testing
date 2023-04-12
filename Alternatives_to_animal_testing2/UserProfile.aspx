@@ -12,5 +12,7 @@
         <h2>Welcome! <asp:Label ID="lblWelcome" runat="server" Text=""></asp:Label></h2>
 
         <span>Username: </span><asp:Label ID="lblUserName" runat="server" Text=""></asp:Label>
+        <span>Phone: </span><asp:Label ID="lblPhone" runat="server" Text=""></asp:Label>
+        <span>Email: </span><asp:Label ID="lblEmail" runat="server" Text=""></asp:Label>
     </asp:Panel>
 </asp:Content>

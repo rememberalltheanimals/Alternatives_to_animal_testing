@@ -14,12 +14,14 @@ namespace Alternatives_to_animal_testing2
         {
             if (Session["AuthenticatedUser"] != null)
             {
-                UserAccount account = (UserAccount)Session["AuthenticatedUser"];
+                UserAccount account = (UserAccount) Session["AuthenticatedUser"];
                 pnlUserProfile.Visible = true;
                 pnlNotAuth.Visible = false;
 
                 lblWelcome.Text = account.FirstName + " " + account.LastName;
                 lblUserName.Text = account.UserName;
+                lblPhone.Text = account.Phone;
+                lblEmail.Text = account.Email;
             }
             else
             {

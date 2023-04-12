@@ -25,14 +25,14 @@ li > a {
     text-decoration: none;
 }
 
-.topnav {
+.nav {
     width: auto;
     display: flex;
     margin-left: 15px;
     margin-top: 15px;
 }
 
-.topnav a {
+.nav a {
     display: inline-block;
     text-decoration: none;
     color: black;
